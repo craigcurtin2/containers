@@ -23,5 +23,5 @@ $ podman info
 ```
 $ podman run -v $HOME:/tmp  -it fedora  /bin/bash
 $ podman run -v $HOME:/tmp --interactive centos:latest  /bin/bash
-'''
-# above runs fedora/centos 'interactively'
+```
+# above runs fedora/centos 'interactively' /bin/bash shell 
